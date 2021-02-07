@@ -21,10 +21,15 @@ Creates a SQLite database and shows the dataframes used in our project.
 
 #\format{
   There are 3 data frames with 5 observations each with 2 variables.
+  
   #\describe{
+  
     #\item{\code{"careers"}}{Contains the 5 careers in tech and their respectives id numbers}
+    
     #\item{\code{"learns"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers}
+    
     #\item{\code{"instructs"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers - Same as learns}
+    
   }
 }
 
