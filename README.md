@@ -3,10 +3,10 @@ Description of our database shell build up
 
 #R documentation
 
-\name{HackWoman Database}
-\alias{HackWoman Database}
-\docType{data}
-\title{
+#\name{HackWoman Database}
+#\alias{HackWoman Database}
+#\docType{data}
+#\title{
 %%   ~~ data name/kind ... ~~
 }
 \description{
