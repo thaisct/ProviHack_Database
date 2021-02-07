@@ -21,10 +21,10 @@ Creates a SQLite database and shows the dataframes used in our project.
 
 #\format{
   There are 3 data frames with 5 observations each with 2 variables.
-  \describe{
-    \item{\code{"careers"}}{Contains the 5 careers in tech and their respectives id numbers}
-    \item{\code{"learns"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers}
-    \item{\code{"instructs"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers - Same as learns}
+  #\describe{
+    #\item{\code{"careers"}}{Contains the 5 careers in tech and their respectives id numbers}
+    #\item{\code{"learns"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers}
+    #\item{\code{"instructs"}}{Contains the 5 areas in professional and interpersonal development and their respectives id numbers - Same as learns}
   }
 }
 
@@ -33,11 +33,11 @@ Creates a SQLite database and shows the dataframes used in our project.
 
 #\format{
 Additional information on packages: 
-  \describe{
-    \item{DBI defines an interface for communication between R and DBMS.}
-    \item{Whereas, RSQLite allows through SQLite() and dbConnect() functions to connect to a SQLite database file.}
-    \item{This is how a connection is established:}
-    \item{\code{con <- dbConnect(RSQLite::SQLite(), dbname = "db_ff.db")}}
+  #\describe{
+    #\item{DBI defines an interface for communication between R and DBMS.}
+    #\item{Whereas, RSQLite allows through SQLite() and dbConnect() functions to connect to a SQLite database file.}
+    #\item{This is how a connection is established:}
+    #\item{\code{con <- dbConnect(RSQLite::SQLite(), dbname = "db_ff.db")}}
   }  
 }
 
