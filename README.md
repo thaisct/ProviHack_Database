@@ -4,12 +4,16 @@ Description of our database shell build up
 #R documentation
 
 #\name{HackWoman Database}
+
 #\alias{HackWoman Database}
+
 #\docType{data}
+
 #\title{
 %%   ~~ data name/kind ... ~~
 }
-\description{
+
+#\description{
 Creates a SQLite database and shows the dataframes used in our project.
 }
 \usage{summary("database_name")}
