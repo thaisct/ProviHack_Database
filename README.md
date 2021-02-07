@@ -34,15 +34,21 @@ Creates a SQLite database and shows the dataframes used in our project.
 }
 
 #\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
 
 #\format{
+
 Additional information on packages: 
+
   #\describe{
+  
     #\item{DBI defines an interface for communication between R and DBMS.}
+    
     #\item{Whereas, RSQLite allows through SQLite() and dbConnect() functions to connect to a SQLite database file.}
+    
     #\item{This is how a connection is established:}
+    
     #\item{\code{con <- dbConnect(RSQLite::SQLite(), dbname = "db_ff.db")}}
+    
   }  
 }
 
