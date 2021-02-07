@@ -1,5 +1,5 @@
 # ProviHack_Database
-Description of our database shell build up
+Description of our database build up
 
 #R documentation
 
